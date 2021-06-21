@@ -10,7 +10,7 @@
   font-size: 16px;
   --text-primary: #140044;
   --text-secondary: #fff;
-  --bg-primary: white;
+  --bg-primary: #fff6f1;
   --bg-secondary: #b3624f;
   --transition-speed: 600ms;
 }
@@ -98,4 +98,31 @@ section {
 
 .about-grid__text {
   padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-left: 0px;
+  }
+
+  .shape-1 {
+    display: none;
+  }
+
+  .shape-2 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .shape-3 {
+    position: absolute;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
 }
