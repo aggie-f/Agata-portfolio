@@ -1,0 +1,151 @@
+/* .banner {
+  background-image: url("../img/banner.jpg");
+  height: 100vh;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.9;
+}
+ 
+.banner a {
+  position: absolute;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+} */
+
+.shapes-hero {
+  position: relative;
+  height: 100vh;
+}
+
+.title {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  top: -350px;
+  position: relative;
+}
+
+.title h1 {
+  font-size: 50px;
+}
+
+.title p {
+  font-size: 24px;
+}
+
+.shapes {
+  position: relative;
+  overflow: hidden;
+  position: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.shape-1 {
+  position: relative;
+  top: -110px;
+  left: -90px;
+  z-index: 1;
+  width: 600px;
+  transform: rotate(2deg);
+}
+
+.shape-2 {
+  position: absolute;
+  top: -100px;
+  left: 200px;
+}
+
+.shape-3 {
+  position: absolute;
+  top: -250px;
+  right: -120px;
+}
+
+.shape-4 {
+  position: absolute;
+  top: -250px;
+  right: -120px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 5rem;
+  top: -190px;
+  position: relative;
+}
+
+.menu-item {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+.menu-item img {
+  width: 200px;
+  opacity: 0.9;
+}
+
+.menu-titles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* text-transform: uppercase; */
+}
+
+.shape-about {
+  transform: rotate(129deg);
+}
+
+.shape-projects {
+  transform: rotate(60deg);
+}
+
+.shape-skills {
+  transform: rotate(6deg);
+}
+
+.shape-contact {
+  transform: rotate(10deg);
+}
+/* .shape-1 {
+  position: relative;
+  left: -300px;
+  top: -100px;
+  transform: rotate(20deg);
+  z-index: 1;
+  width: 700px;
+}
+
+.shape-2 {
+  position: relative;
+  left: 10px;
+  top: -700px;
+  transform: rotate(40deg);
+  width: 700px;
+}
+
+.shape-3 {
+  position: relative;
+  right: -700px;
+  top: -1700px;
+  transform: rotate(-30deg);
+  width: 700px;
+} */
