@@ -24,11 +24,11 @@ body {
   height: 100vh;
 }
 
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 h1,
 h2,
@@ -60,6 +60,10 @@ body::-webkit-scrollbar-thumb {
 
 .container {
   margin-left: 5rem;
+  /* padding: 100px 30px;
+  width: 100%; */
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 section {
@@ -85,20 +89,7 @@ section {
   text-transform: uppercase;
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 
-.about-grid img {
-  display: block;
-  width: 100%;
-  padding: 50px;
-}
-
-.about-grid__text {
-  padding: 50px;
-}
 
 @media only screen and (max-width: 600px) {
   .container {
