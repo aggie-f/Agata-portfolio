@@ -1,9 +1,9 @@
-/* .shapes-hero {
-  position: relative;
-} */
+.shapes-hero {
+  height: 80vh;
+}
 
 .shapes {
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
 }
 
@@ -101,9 +101,6 @@
 .shape-contact {
   transform: rotate(10deg);
 }
-
-
-
 
 @media only screen and (max-width: 600px) {
   .shape-1,
