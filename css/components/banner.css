@@ -1,9 +1,9 @@
 .shapes-hero {
-  height: 80vh;
+  /* height: 80vh; */
+  position: relative;
 }
 
 .shapes {
-  /* position: relative; */
   overflow: hidden;
 }
 
@@ -39,12 +39,11 @@
 }
 
 .title {
-  display: grid;
-  align-content: center;
-  justify-content: center;
+  position: absolute;
   text-align: center;
-  top: -450px;
-  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 100;
 }
 

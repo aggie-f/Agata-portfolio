@@ -37,6 +37,14 @@
   padding: 20px;
 }
 
+.x-svg:hover {
+  fill: red;
+}
+.x-svg g,
+.x-svg path {
+  fill: inherit !important;
+}
+
 .slider-container {
   position: relative;
   overflow: hidden;
