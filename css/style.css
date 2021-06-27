@@ -19,7 +19,7 @@
   --text-primary: #140044;
   --text-secondary: #fff;
   --bg-primary: #fff6f1;
-  --bg-secondary: #b3624f;
+  --bg-secondary: #e7c5ac;
   --navbar-primary: #435449;
   --navbar-secondary: #e7c5ac;
   --transition-speed: 600ms;
@@ -78,8 +78,30 @@ section {
 }
 
 .section-titles {
+  position: relative;
   text-align: center;
   font-family: "selimaregular";
+  margin-bottom: 40px;
+}
+
+.section-titles img {
+  width: 200px;
+  opacity: 0.9;
+}
+
+.section-titles__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-titles__text h1 {
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {
