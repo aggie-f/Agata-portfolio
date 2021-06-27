@@ -26,6 +26,7 @@
   padding: 40px;
   align-self: center;
   text-align: center;
+  justify-self: center;
 }
 
 .description h2 {

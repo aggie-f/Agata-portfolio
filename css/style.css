@@ -6,6 +6,14 @@
 @import url("components/projects.css");
 @import url("components/skills.css");
 
+@font-face {
+  font-family: "selimaregular";
+  src: url("../assets/fonts/selima_-webfont.woff2") format("woff2"),
+    url("../assets/fonts/selima_-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   font-size: 16px;
   --text-primary: #140044;
@@ -22,7 +30,8 @@ body {
   background-color: var(--bg-primary);
   margin: 0;
   padding: 0;
-  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Josefin Sans", sans-serif; */
+  font-family: "Quicksand", sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -70,7 +79,7 @@ section {
 
 .section-titles {
   text-align: center;
-  text-transform: uppercase;
+  font-family: "selimaregular";
 }
 
 @media only screen and (max-width: 1024px) {
