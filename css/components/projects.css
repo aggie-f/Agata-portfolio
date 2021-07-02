@@ -57,9 +57,17 @@
   justify-self: center;
 }
 
+.project-img {
+  transition: var(--transition-speed);
+}
+
 .project-img img {
   max-height: 400px;
   padding: 20px;
+}
+
+.project-img:hover {
+  transform: scale(1.7);
 }
 
 .x-svg:hover {
@@ -70,11 +78,11 @@
   fill: inherit !important;
 }
 
-.slider-container {
+/* .slider-container {
   position: relative;
   overflow: hidden;
-  /*width: 60vw;
-  height: 70vh; */
+  *width: 60vw;
+  height: 70vh; 
   margin: 20vh 20vw;
   width: 60vw;
   height: 70vh;
@@ -157,7 +165,7 @@ button:focus {
   transform: translateY(-100%);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-}
+}  */
 
 @media screen and (max-width: 1000px) {
   .projects-multi {

@@ -22,7 +22,12 @@
   --bg-secondary: #e7c5ac;
   --navbar-primary: #435449;
   --navbar-secondary: #e7c5ac;
+
   --transition-speed: 600ms;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -85,7 +90,7 @@ section {
 }
 
 .section-titles img {
-  width: 200px;
+  width: 250px;
   opacity: 0.9;
 }
 
@@ -97,7 +102,7 @@ section {
 }
 
 .section-titles__text h1 {
-  font-size: 2rem;
+  font-size: 2.75rem;
 }
 
 .text-center {
