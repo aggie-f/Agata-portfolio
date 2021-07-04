@@ -20,9 +20,9 @@
   --text-secondary: #fff;
   --bg-primary: #fff6f1;
   --bg-secondary: #e7c5ac;
-  --navbar-primary: #435449;
+  /* --navbar-primary: #435449;  */
+  --navbar-primary: #333b36;
   --navbar-secondary: #e7c5ac;
-
   --transition-speed: 600ms;
 }
 

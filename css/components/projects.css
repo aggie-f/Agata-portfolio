@@ -78,6 +78,11 @@
   fill: inherit !important;
 }
 
+.projects-multi .social a,
+.project .social a {
+  font-size: 2rem;
+}
+
 /* .slider-container {
   position: relative;
   overflow: hidden;
