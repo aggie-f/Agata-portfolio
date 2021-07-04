@@ -1,6 +1,5 @@
 .section-dark {
   background-color: var(--bg-secondary);
-  padding-bottom: 5rem;
 }
 
 .top-link {
@@ -51,7 +50,7 @@ a {
   opacity: 1;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   .contact-grid {
     grid-template-columns: 1fr 2fr;
   }
@@ -60,8 +59,8 @@ a {
     width: 90%;
   }
 
-  .social a {
-    font-size: 3rem;
+  .section-dark {
+    padding-bottom: 5rem;
   }
 }
 

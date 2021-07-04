@@ -97,121 +97,6 @@
   }
 }
 
-/* .shapes-hero {
-  position: relative;
-}
-
-.shapes {
-  overflow: hidden;
-}
-
-.shape-1 {
-  position: relative;
-  top: -110px;
-  left: -90px;
-  z-index: 1;
-  width: 650px;
-  transform: rotate(-5deg);
-}
-
-.shape-2 {
-  position: absolute;
-  top: -124px;
-  left: 152px;
-  width: 638px;
-}
-
-.shape-3 {
-  position: absolute;
-  top: -368px;
-  right: -72px;
-  z-index: 3;
-  width: 650px;
-}
-
-.shape-4 {
-  position: absolute;
-  top: -63px;
-  right: -123px;
-  transform: rotate(-12deg);
-}
-
-.title {
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
-}
-
-.title h1 {
-  font-size: 60px;
-}
-
-.title p {
-  font-size: 30px;
-  padding: 12px;
-}
-
-.menu {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin-left: 5rem;
-  top: -190px;
-  position: relative;
-}
-
-.menu-item {
-  position: relative;
-  text-align: center;
-  color: white;
-  font-size: 24px;
-}
-
-.menu-item img {
-  width: 200px;
-  opacity: 0.9;
-}
-
-.menu-titles {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.shape-about {
-  transform: rotate(129deg);
-}
-
-.shape-projects {
-  transform: rotate(60deg);
-}
-
-.shape-skills {
-  transform: rotate(6deg);
-}
-
-.shape-contact {
-  transform: rotate(10deg);
-}
-
-@media only screen and (max-width: 1000px) {
-  .shape-3 {
-    top: -14px;
-    right: 199px;
-    z-index: 3;
-    width: 650px;
-    transform: rotate(-51deg);
-  }
-
-  .shape-4 {
-    display: none;
-  }
-} */
-
 @media only screen and (max-width: 600px) {
   .banner-text h1 {
     font-size: 2rem;
@@ -229,5 +114,12 @@
   .banner-home {
     background-size: contain;
     height: 90vh;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .banner-text,
+  .btn-scroll a {
+    margin: 3rem;
   }
 }
