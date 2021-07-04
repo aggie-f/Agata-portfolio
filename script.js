@@ -4,38 +4,33 @@ window.scroll({
   behavior: "smooth",
 });
 
-// const sliderContainer = document.querySelector(".slider-container");
-// const slideRight = document.querySelector(".right-slide");
-// const slideLeft = document.querySelector(".left-slide");
-// const upButton = document.querySelector(".up-button");
-// const downButton = document.querySelector(".down-button");
-// const slidesLength = slideRight.querySelectorAll("div").length;
+const faders = document.querySelectorAll(".fade-in");
+const sliders = document.querySelectorAll(".slide-in");
 
-// let activeSlideIndex = 0;
+const appearOptions = {
+  threshold: 0,
+  rootMargin: "0px 0px -250px 0px",
+};
 
-// slideLeft.style.top = `-${(slidesLength - 1) * 70}vh`;
+const appearOnScroll = new IntersectionObserver(function (
+  entries,
+  appearOnScroll
+) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add("appear");
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+},
+appearOptions);
 
-// upButton.addEventListener("click", () => changeSlide("up"));
-// downButton.addEventListener("click", () => changeSlide("down"));
+faders.forEach((fader) => {
+  appearOnScroll.observe(fader);
+});
 
-// const changeSlide = (direction) => {
-//   const sliderHeight = sliderContainer.clientHeight;
-//   if (direction === "up") {
-//     activeSlideIndex++;
-//     if (activeSlideIndex > slidesLength - 1) {
-//       activeSlideIndex = 0;
-//     }
-//   } else if (direction === "down") {
-//     activeSlideIndex--;
-//     if (activeSlideIndex < 0) {
-//       activeSlideIndex = slidesLength - 1;
-//     }
-//   }
-
-//   slideRight.style.transform = `translateY(-${
-//     activeSlideIndex * sliderHeight
-//   }px)`;
-//   slideLeft.style.transform = `translateY(${
-//     activeSlideIndex * sliderHeight
-//   }px)`;
-// };
+sliders.forEach((slider) => {
+  appearOnScroll.observe(slider);
+});

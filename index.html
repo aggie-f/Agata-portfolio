@@ -3,31 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
+    <!-- Viewport for responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
-      rel="stylesheet"
+    <meta
+      name="description"
+      content="Agata Klus | Web developer based in London"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <title>Agata Klus</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <title>Agata Klus | Web Dev based in London</title>
   </head>
 
   <body>
@@ -36,7 +30,7 @@
       <ul class="navbar-nav">
         <li class="logo">
           <a href="#" class="nav-link">
-            <img src="img/logo1.png" alt="" class="link-text logo-text" />
+            <img src="assets/img/logo1.png" alt="" class="link-text logo-text" />
             <svg
               aria-hidden="true"
               focusable="false"
@@ -65,32 +59,32 @@
 
         <li class="nav-item">
           <a href="#about" class="nav-link">
-            <img src="img/info.png" alt="" class="image-main"/>
-            <img src="img/info-green.png" alt="" class="image-hover" />
+            <img src="assets/icons/info.png" alt="" class="image-main"/>
+            <img src="assets/icons.png" alt="" class="image-hover" />
             <span class="link-text">ABOUT ME</span>
           </a>
         </li>
 
         <li class="nav-item">
           <a href="#projects" class="nav-link">
-            <img src="img/projects.png" alt="" class="image-main"/>
-            <img src="img/projects-green.png" alt="" class="image-hover" />
+            <img src="assets/icons/projects.png" alt="" class="image-main"/>
+            <img src="assets/icons/projects-green.png" alt="" class="image-hover" />
             <span class="link-text">PROJECTS</span>
           </a>
         </li>
 
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <img src="img/skills.png" alt="" class="image-main"/>
-            <img src="img/skills-green.png" alt="" class="image-hover"/>
+            <img src="assets/icons/skills.png" alt="" class="image-main"/>
+            <img src="assets/icons/skills-green.png" alt="" class="image-hover"/>
             <span class="link-text">SKILLS</span>
           </a>
         </li>
 
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <img src="img/contact.png" alt="" class="image-main"/>
-            <img src="img/contact-green.png" alt="" class="image-hover" />
+            <img src="assets/icons/contact.png" alt="" class="image-main"/>
+            <img src="assets/icons/contact-green.png" alt="" class="image-hover" />
             <span class="link-text">CONTACT</span>
           </a>
         </li>
@@ -121,7 +115,7 @@
           </div>
           <div>
             <div class="about-grid">
-              <div class="about-grid__left">
+              <div class="about-grid__left fade-in">
                 <!-- <div class="about-grid__text">
                   <p>
                     Hello, my name is <strong>Agata</strong> and welcome to my
@@ -210,7 +204,7 @@
           <div class="project-container">
             <!-- psycho-terapeutyczny project desciption -->
             <div class="projects-multi">
-              <div class="description">
+              <div class="description slide-in from-left">
                 <h2>Psycho-Terapeutyczny</h2>
                 <p>
                   Freelance project for Polish psychologist. I designed website
@@ -230,7 +224,7 @@
                   </a>
                 </div>
               </div>
-              <div class="project-visual__flex">
+              <div class="project-visual__flex slide-in from-right">
                 <div class="project-img">
                   <img
                     src="img/psycho-terapeutyczny.jpg"
@@ -247,7 +241,7 @@
             </div>
             <!-- eztenda -->
             <div class="projects-multi">
-              <div class="description">
+              <div class="description slide-in from-left">
                 <h2>Eztenda - Hackathon Project</h2>
                 <p>
                   A whole weekend event with 30 teams participating. I was part
@@ -270,7 +264,7 @@
                   </a>
                 </div>
               </div>
-              <div class="project-visual__flex">
+              <div class="project-visual__flex slide-in from-right">
                 <div class="project-img">
                   <img src="img/eztenda1.png" alt="Webiste for Eztenda" />
                 </div>
@@ -281,7 +275,7 @@
             </div>
             <!-- meat london e-commerce -->
             <div class="projects-multi">
-              <div class="description">
+              <div class="description slide-in from-left">
                 <h2>E-commerce shop for MEAT shop</h2>
                 <p>
                   My first Front-end developement project. I was responsible for
@@ -296,7 +290,7 @@
                   </a>
                 </div>
               </div>
-              <div class="project-visual__flex">
+              <div class="project-visual__flex slide-in from-right">
                 <div class="project-img">
                   <img src="img/meat.jpg" alt="Webiste for Polish Psychologist" />
                 </div>
@@ -310,7 +304,7 @@
             </div>
             <!-- under one roof project desciption -->
             <div class="project">
-              <div class="description">
+              <div class="description slide-in from-left">
                 <h2>Under One Roof</h2>
                 <p>
                   A web application with the aim to create bespoke cultural
@@ -329,7 +323,7 @@
                   </a>
                 </div>
               </div>
-              <div class="project-visual">
+              <div class="project-visual slide-in from-right">
                 <div class="project-img">
                   <img
                     src="img/underOneRoof.jpg"
@@ -340,7 +334,7 @@
             </div>
             <!-- Mr. Cocktail project desciption -->
             <div class="project">
-              <div class="description">
+              <div class="description slide-in from-left">
                 <h2>Retro Cocktails</h2>
                 <p>
                   First rails app built in Rails. Cocktail manager app which
@@ -358,7 +352,7 @@
                   </a>
                 </div>
               </div>
-              <div class="project-visual">
+              <div class="project-visual slide-in from-right">
                 <div class="project-img">
                   <img src="img/cocktails.jpg" alt="Mr Cocktail website image" />
                 </div>
