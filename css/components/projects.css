@@ -29,10 +29,6 @@
   line-height: 1.4;
 }
 
-.projects-multi .description {
-  width: 400px;
-}
-
 .project-links {
   display: flex;
   justify-content: center;
@@ -77,10 +73,10 @@
   padding: 20px;
 }
 
-@media screen and (min-width: 1000px) {
-  /* .projects-multi .description {
-    width: 100%;
-  } */
+@media screen and (min-width: 1025px) {
+  .projects-multi .description {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 999px) {
@@ -88,6 +84,7 @@
   .project {
     grid-template-columns: 1fr;
     justify-items: center;
+    padding: 20px 0;
   }
 
   .project-img img {
